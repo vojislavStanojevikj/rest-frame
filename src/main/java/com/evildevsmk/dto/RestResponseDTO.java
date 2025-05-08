@@ -1,4 +1,4 @@
-package com.evlidevs.mk.restframe.dto;
+package com.evildevsmk.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Getter;

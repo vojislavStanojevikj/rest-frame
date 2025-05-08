@@ -1,6 +1,6 @@
-package com.evlidevs.mk.restframe.util;
+package com.evildevsmk.util;
 
-import com.evlidevs.mk.restframe.codes.ErrorCode;
+import com.evildevsmk.codes.ErrorCode;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.function.BiFunction;
@@ -22,7 +22,7 @@ public final class ExceptionLoggerUtil {
      */
     public static <T extends Exception> Supplier<T> logAndSupplyException(ErrorCode errorCode,
                                                                           BiFunction<String, ErrorCode, T> function) {
-        return logAndSupplyException(errorCode.getDefaultMessage(), errorCode, function);
+        return logAndSupplyException(errorCode.getErrorMessage(), errorCode, function);
     }
 
     /**
