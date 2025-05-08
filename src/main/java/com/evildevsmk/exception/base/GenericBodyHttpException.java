@@ -1,10 +1,10 @@
-package com.evlidevs.mk.restframe.exception.base;
+package com.evildevsmk.exception.base;
 
-import com.evlidevs.mk.restframe.codes.ErrorCode;
+import com.evildevsmk.codes.ErrorCode;
 import lombok.Getter;
 
 @Getter
-public class GenericBodyHttpException extends HttpStatusException {
+public final class GenericBodyHttpException extends HttpStatusException {
 
     public GenericBodyHttpException(ErrorCode errorCode, String message, int httpStatus, HttpExceptionBody body) {
         super(message);

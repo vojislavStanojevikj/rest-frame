@@ -1,10 +1,10 @@
-package com.evlidevs.mk.restframe.exception.base;
+package com.evildevsmk.exception.base;
 
 
-import com.evlidevs.mk.restframe.codes.ErrorCode;
-import com.evlidevs.mk.restframe.codes.NotAuthorizedErrorCode;
+import com.evildevsmk.codes.ErrorCode;
+import com.evildevsmk.codes.NotAuthorizedErrorCode;
 
-public class NotAuthorizedException extends HttpStatusException {
+public final class NotAuthorizedException extends HttpStatusException {
 
     private static final int NOT_AUTHORIZED_HTTP_STATUS_CODE = 401;
 

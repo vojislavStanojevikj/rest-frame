@@ -1,4 +1,4 @@
-package com.evlidevs.mk.restframe.exception.base;
+package com.evildevsmk.exception.base;
 
 import java.io.Serializable;
 

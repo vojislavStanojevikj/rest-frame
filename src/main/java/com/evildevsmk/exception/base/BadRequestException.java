@@ -1,9 +1,9 @@
-package com.evlidevs.mk.restframe.exception.base;
+package com.evildevsmk.exception.base;
 
-import com.evlidevs.mk.restframe.codes.BadRequestErrorCode;
-import com.evlidevs.mk.restframe.codes.ErrorCode;
+import com.evildevsmk.codes.BadRequestErrorCode;
+import com.evildevsmk.codes.ErrorCode;
 
-public class BadRequestException extends HttpStatusException {
+public final class BadRequestException extends HttpStatusException {
 
     private static final int BAD_REQUEST_HTTP_STATUS_CODE = 400;
 

@@ -1,10 +1,10 @@
-package com.evlidevs.mk.restframe.exception.base;
+package com.evildevsmk.exception.base;
 
 
-import com.evlidevs.mk.restframe.codes.ErrorCode;
-import com.evlidevs.mk.restframe.codes.InternalServerErrorCode;
+import com.evildevsmk.codes.ErrorCode;
+import com.evildevsmk.codes.InternalServerErrorCode;
 
-public class InternalServerErrorException extends HttpStatusException {
+public final class InternalServerErrorException extends HttpStatusException {
 
     private static final int INTERNAL_SERVER_ERROR_HTTP_STATUS_CODE = 500;
 
